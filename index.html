@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"
+        integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+        .text h1 {
+            text-transform: uppercase;
+        }
+
+        .main {
+            width: 85%;
+            margin: auto;
+        }
+
+        .text {
+            margin-top: 200px;
+
+        }
+
+        .text h1 {
+            font-size: 60px;
+            color: #008eec;
+            padding-bottom: 80px;
+
+        }
+
+        .text p {
+            max-width: 700px;
+            padding-top: 40px;
+            padding-bottom: 50px;
+        }
+
+        .pic img {
+            width: 800px;
+            padding-top: 50px;
+
+        }
+
+        .text2 h3 {
+            padding-left: 50px;
+            padding-top: 100px;
+            text-align: center;
+            font-size: 18px;
+            padding-bottom: 50px;
+            color: rgb(109, 109, 109);
+        }
+
+
+
+
+        @media screen and (max-width:991px) {
+            .pic img {
+                width: 480px;
+                padding-top: 50px;
+                margin-left: -50px;
+
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand fs-4" href="#">INS SHAHRIAR</a>
+            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class=" sidebar offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header border-bttom">
+                    <h5  class="offcanvas-title" id="offcanvasNavbarLabel">INS SHAHRIAR</h5>
+                    <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+                    <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link mx-2" href="#">About</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                        <a class="nav-link mx-2" href="#">Services</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link mx-2" href="#">Contact</a>
+                        </li>
+
+                    </ul>
+                    <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
+                        <a class="text-white" href="#">Login</a>
+                        <a class="text-white text-decoration-none px-3 py-1 rounded-4"
+                            style="background-color: #00cba9;" href="#">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row main">
+        <div class="col col-sm-12 col-md-12 col-lg-6 text">
+            <h1>Lorem ipsum dolor <br> sit amet consectetur <br> adipisicing.</h1>
+            <hr style="width: 40%; color: #008eec;">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate velit dolorem pariatur eos dolorum
+                quia fugit fugiat omnis sequi eaque totam recusandae at, repudiandae eum tempora et aut aliquam
+                architecto illum perspiciatis ratione obcaecati minus quis? Iusto nesciunt nemo consequatur.</p>
+            <button style="margin-right: 20px;" type="button" class="btn btn-primary btn-lg">Get Started</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg">Learn More</button>
+            
+
+        </div>
+        <div class="col col-sm-12 col-md-12 col-lg-6 pic">
+            <img src="./3d-rendering-isometric-house.png" alt="">
+        </div>
+        <div class="text2">
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae aliquam <br> nemo earum, nesciunt unde suscipit.</h3>
+
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
